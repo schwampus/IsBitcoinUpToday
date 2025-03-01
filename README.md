@@ -1,4 +1,4 @@
-# <img src="https://assets-global.website-files.com/65df0227a3b097d0c3344778/65df088caf5c7cbd5c4996aa_webclip.png" width="20" height="20" /> [IsBitcoinUpToday.com that's the big question](https://isbitcoinuptoday.com/) <img src="https://assets-global.website-files.com/65df0227a3b097d0c3344778/65df088caf5c7cbd5c4996aa_webclip.png" width="20" height="20" />
+# <img src="https://assets-global.website-files.com/65df0227a3b097d0c3344778/65df088caf5c7cbd5c4996aa_webclip.png" width="20" height="20" /> [IsBitcoinUpToday.com  - that's the big question](https://isbitcoinuptoday.com/) <img src="https://assets-global.website-files.com/65df0227a3b097d0c3344778/65df088caf5c7cbd5c4996aa_webclip.png" width="20" height="20" />
    
 
 

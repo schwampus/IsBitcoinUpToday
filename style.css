@@ -28,7 +28,9 @@ body {
 }
 
 .preText {
-	font-size: 3rem;
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 0 15px;
 }
 
 #answerText {
@@ -36,6 +38,15 @@ body {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.preText {
+		font-size: 3rem;
+	}
+	#answerText {
+		font-size: 1.5rem;
+	}
 }
 
 .answerHighlight {
@@ -58,6 +69,8 @@ article {
 	width: 100%;
 	min-height: 100vh;
 	align-content: center;
+	justify-items: center;
+	padding: 20px;
 }
 #dateText {
 	width: 100%;
@@ -67,13 +80,25 @@ article {
 
 .num {
 	place-self: center;
+	font-size: 4rem;
+	max-width: 100%;
+	padding: 0 15px;
+	width: auto;
+}
+@media (min-width: 768px) {
+	.num {
+		font-size: 8rem; /* Larger size for desktop */
+	}
+}
 
-	justify-content: center;
-	width: 500px;
-	/* background-color: rgb(171, 171, 166); */
-	font-size: 8rem;
-	font-weight: regular;
-	text-align: center;
+@media (max-width: 480px) {
+	.num {
+		font-size: 3rem;
+	}
+	#dateText,
+	#priceText {
+		font-size: 0.9rem;
+	}
 }
 
 #priceText {

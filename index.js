@@ -1,27 +1,4 @@
-/* 
-[x] Find API   --- https://openapiv1.coinstats.app
-[x] function for todays price
-    [x] replace "data-value" with todays price
-[x] function for yesterdays price
-    [x] replace "data-value" with yesterdays price
-[x] function that changes css depending on price
-[x] function that changes css on toggle click
-[ ] 
 
-[x] fix green css
-[x] fix red css
-[ ] add elements
-    [x] checking price text , loader while fetching
-    [x] hide checking price text when fetch is done
-    [x] button for switching color, temp
-    [x] BIG PRICE BANNER
-    [x] TODAYS DATE
-    [x] little text that tells you yesterdays price
-    [ ] button for detailed view
-    [ ] button for clean view
-    [ ] Chartjs linegraph for price past week
-[ ] fix html style
- */
 
 
 function toggleStyle(){
@@ -30,12 +7,12 @@ function toggleStyle(){
     preText.style.display = "none";
     if (priceToday>priceYesterday) {
         page.classList.toggle("green-mode")
-        answerText.innerHTML = "Yes, <span class='answerHighlight'>bitcoin is up today</span>, kick back & relax, we're going to the moon!"
+        answerText.innerHTML = "Yes, <span class='answerHighlight'>bitcoin is up today</span>, kick back & relax, we're going to the moon! 🚀"
         
 
     } else {
         page.classList.toggle("red-mode")
-        answerText.innerHTML = "No, <span class='answerHighlight'>bitcoin is not up today</span>, You should buy some more!"
+        answerText.innerHTML = "No, <span class='answerHighlight'>bitcoin is not up today</span>, You should buy some more! 💰"
         
     }
     dateText.textContent = `Today's date is: ${now2}`
@@ -120,7 +97,7 @@ let fetchYesterday6 = `https://openapiv1.coinstats.app/coins/price/avg?coinId=bi
 
 const options = {
     method: 'GET',
-    headers: {'X-API-KEY': 'kjR8NZ5dY/6Bs53oqAJZ/xyyiKGTm/1pLB/k5wjb8bU='}
+    headers: { insert your own API KEY HERE! }
   };
 
 let priceData=[]
@@ -248,37 +225,6 @@ toggleStyle()
 const obj = document.querySelector(".num");
 animateValue(obj, priceYesterday, priceToday, 1800);
 
-
-// create and fill chart 
-
-function chartIt() {
-const ctx = document.getElementById('chart');
-
-Chart.defaults.color = '#000';
-
-new Chart(ctx, {
-type: 'line',
-data: {
-    labels: [ "6 days ago", "5 days ago","4 days ago", 
-    "3 days ago", "2 days ago", "yesterday","today",],
-    datasets: [{
-    data: priceData,
-    borderColor: '#e1e1e1',
-    color: '#000',
-    borderWidth: 1,
-    pointStyle: 'false'
-    }]
-},
-options: {
-   
-}
-});
-
-}
-
-console.log(priceData);
-
-chartIt();
 
 
 

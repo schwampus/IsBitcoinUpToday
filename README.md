@@ -15,8 +15,8 @@
     </ul>
 </div>
 <br>
-<p>I have been intrested in Bitcoin for many years and with this site you get a quick glance on how it's doing./p>
- 
+<p>I have been intrested in Bitcoin for many years and with this site you get a quick glance on how it's doing.</p>
+ <br>
 <p>As mention this was a school project. The conditions that we had to fulfill were:</p>
 <div>
   <ul  style="list-style-type: disc;">

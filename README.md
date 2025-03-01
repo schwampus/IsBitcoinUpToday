@@ -23,6 +23,6 @@
    <summary>
 <li>The site has to be dynamic</li>
 <li>The site has to fetch some data using an API and display it</li>
-<li>The site has to done with vanilla JS, no frameworks! </li>
+<li>The site has to done with vanilla JS, <s>no frameworks!</s> </li>
  </summary></ul></div>
 

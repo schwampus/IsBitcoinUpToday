@@ -1,10 +1,6 @@
-<div id="user-content-toc">
-  
+[IsBitcoinUpToday.com ? ]([URL](https://isbitcoinuptoday.com/))
    
-      [IsBitcoinUpToday.com ? ]([URL](https://isbitcoinuptoday.com/))
-   
-    
-</div>
+
 
 
 <div id="user-content-toc">

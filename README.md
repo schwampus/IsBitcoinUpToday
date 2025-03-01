@@ -1,4 +1,4 @@
-[IsBitcoinUpToday.com ? ]([URL](https://isbitcoinuptoday.com/))
+[IsBitcoinUpToday.com ? ]([(https://isbitcoinuptoday.com/)])
    
 
 

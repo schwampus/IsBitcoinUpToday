@@ -1,7 +1,7 @@
 <div id="user-content-toc">
   <ul align="center" style="list-style: none;">
    <summary>
-      <h1>[IsBitcoinUpToday.com ? ]([URL](https://isbitcoinuptoday.com/))</h1>
+      [IsBitcoinUpToday.com ? ]([URL](https://isbitcoinuptoday.com/))
    </summary>
     </ul>
 </div>

@@ -1,0 +1,91 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "helvetica", sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ffffff;
+	transition: background-color 2s ease;
+	color: #000000;
+}
+
+.red-mode {
+	animation: fadeInAnimation ease 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	background-color: rgb(228, 58, 80);
+	color: rgb(233, 117, 132);
+}
+
+.green-mode {
+	animation: fadeInAnimation ease 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	background-color: rgb(143, 212, 143);
+	color: rgb(220, 245, 220);
+}
+
+.preText {
+	font-size: 3rem;
+}
+
+#answerText {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.answerHighlight {
+	color: rgb(84, 84, 84);
+	font-weight: bolder;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+article {
+	display: grid;
+	width: 100%;
+	min-height: 100vh;
+	align-content: center;
+}
+#dateText {
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.num {
+	place-self: center;
+
+	justify-content: center;
+	width: 500px;
+	/* background-color: rgb(171, 171, 166); */
+	font-size: 8rem;
+	font-weight: regular;
+	text-align: center;
+}
+
+#priceText {
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 8rem;
+}
+
+#chart {
+	color: #000000;
+}

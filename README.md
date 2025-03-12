@@ -6,7 +6,7 @@
 <div id="user-content-toc">
   <ul  style="list-style: none;">
    <summary>
-      <h3>This is my first "webapp" that I have both created and launched.</h3>
+      <h3>This is my first webapp that is launched on it's own domain. </h3>
 </summary>
     </ul>
 </div>

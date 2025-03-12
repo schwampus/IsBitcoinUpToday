@@ -7,13 +7,14 @@
   <ul  style="list-style: none;">
    <summary>
       <h3>This is my first "webapp" that I have both created and launched.</h3>
+<p>The site has a design that is heavily inspired by the site vecka.nu because it's so good. You get the jist in less than a second, all you need to know boom straight in your face.</p>
    </summary>
     </ul>
 </div>
 <br>
-<p>I have been intrested in Bitcoin for many years and with this site you get a quick glance on how it's doing.</p>
+<p>I have been intrested in Bitcoin for many years and with this site you get a quick glance that isn't too overwhelming on how it's doing. It will only show you the current price compared to yesterdays price. </p>
  <br>
-<p>As mention this was a school project. The conditions that we had to fulfill were:</p>
+<p>This started out as a school assignment and the conditions that we had to fulfill were:</p>
 <div>
   <ul  style="list-style-type: disc;">
    <summary>

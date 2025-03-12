@@ -7,12 +7,12 @@
   <ul  style="list-style: none;">
    <summary>
       <h3>This is my first "webapp" that I have both created and launched.</h3>
-<p>The site has a design that is heavily inspired by the site vecka.nu because it's so good. You get the jist in less than a second, all you need to know boom straight in your face.</p>
-   </summary>
+</summary>
     </ul>
 </div>
 <br>
-<p>I have been intrested in Bitcoin for many years and with this site you get a quick glance that isn't too overwhelming on how it's doing. It will only show you the current price compared to yesterdays price. </p>
+<p>I have been intrested in Bitcoin for many years and with this site you get a quick glance that isn't too overwhelming on how it's doing. It will only show you the current price compared to yesterdays price. 
+The site has a design that is heavily inspired by the site vecka.nu because it's so good. You get the jist in less than a second, all you need to know boom straight in your face.</p>
  <br>
 <p>This started out as a school assignment and the conditions that we had to fulfill were:</p>
 <div>
@@ -22,4 +22,6 @@
 <li>The site has to fetch some data using an API and display it</li>
 <li>The site has to done with vanilla JS, <s>no frameworks!</s> </li>
  </summary></ul></div>
+
+<p>Half way thru the project I got inspired and wanted to make this in to a real site and bought the domain. </p>
 

@@ -15,16 +15,16 @@ body {
 	animation: fadeInAnimation ease 1s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	background-color: rgb(228, 58, 80);
-	color: rgb(233, 117, 132);
+	background-color: oklch(0.6 0.17 25);
+	color: oklch(82.112% 0.06868 26.433);
 }
 
 .green-mode {
 	animation: fadeInAnimation ease 1s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	background-color: rgb(143, 212, 143);
-	color: rgb(220, 245, 220);
+	background-color: oklch(34.61% 0.07118 144.985);
+	color: oklch(80.541% 0.09989 145.439);
 }
 
 .preText {
@@ -50,7 +50,7 @@ body {
 }
 
 .answerHighlight {
-	color: rgb(84, 84, 84);
+	color: rgb(56, 53, 53);
 	font-weight: bolder;
 }
 

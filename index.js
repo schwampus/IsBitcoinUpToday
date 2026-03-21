@@ -5,18 +5,15 @@ function toggleStyle() {
 	if (priceToday > priceYesterday) {
 		page.classList.toggle("green-mode");
 		answerText.innerHTML =
-			"Yes, <span class='answerHighlight'>bitcoin is up today</span>, kick back & relax, we're going to the moon! 🚀";
+			"Bitcoin <span class='answerHighlight'>is up</span> today! Kick back & relax, we're going to the moon! 🚀";
 	} else {
 		page.classList.toggle("red-mode");
 		answerText.innerHTML =
-			"No, <span class='answerHighlight'>bitcoin is not up today</span>, You should buy some more! 💰";
+			"Bitcoin <span class='answerHighlight'>is not up</span> today. You should buy the dip! 💰";
 	}
 	dateText.textContent = `Today's date is: ${now2}`;
 	priceText.textContent = `Yesterdays price was $${price1}`;
 }
-
-// answerTextText.textContent = `Yes, bitcoin is up today, to the moon!`
-// answerTextText.textContent = `No, bitcoin is down today, buy some more
 
 let now2 = new Date();
 now2 = now2.toLocaleDateString();

@@ -15,16 +15,16 @@ body {
 	animation: fadeInAnimation ease 1s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	background-color: oklch(0.6 0.17 25);
-	color: oklch(82.112% 0.06868 26.433);
+	background-color: oklch(65.574% 0.22553 23.589);
+	color: oklch(26.633% 0.10904 28.502);
 }
 
 .green-mode {
 	animation: fadeInAnimation ease 1s;
 	animation-iteration-count: 1;
 	animation-fill-mode: forwards;
-	background-color: oklch(34.61% 0.07118 144.985);
-	color: oklch(80.541% 0.09989 145.439);
+	background-color: oklch(80.602% 0.19514 149.369);
+	color: oklch(41.72% 0.123 146.79);
 }
 
 .preText {

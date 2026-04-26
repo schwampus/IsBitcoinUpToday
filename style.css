@@ -50,7 +50,9 @@ body {
 }
 
 .answerHighlight {
-	color: rgb(56, 53, 53);
+	font-variant: small-caps;
+	font-variant:;
+	font-size: 2rem;
 	font-weight: bolder;
 }
 
@@ -80,7 +82,8 @@ article {
 
 .num {
 	place-self: center;
-	font-size: 4rem;
+	font-size: 6rem;
+	font-weight: 600;
 	max-width: 100%;
 	padding: 0 15px;
 	width: auto;
@@ -109,8 +112,4 @@ article {
 
 h1 {
 	font-size: 8rem;
-}
-
-#chart {
-	color: #000000;
 }
